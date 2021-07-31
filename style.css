@@ -3,18 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: orangered;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 main{
-    margin: auto;
+    border-radius: 5px;
     background-color: gray;
-    max-width: 300px;
+    width: 50%;
+    margin-top: 5%;
+    height: 700px;
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main h2{
+    font-size: 30px;
+    text-shadow: 1px 3px white;
 }
 .show{
-    max-width: 200px;
-    height: 200px;
-    background-color: white;
-    margin: auto;
-    font-size: 50px;
+    max-width: 80%;
+    width: 300px;
+    height: 400px;
+    background-color: #000000;
+    color: red;
+    font-size: 60px;
     margin-bottom: 10px;
-    padding: 40px;
+    align-content: center;
+    align-items: center;
+    padding: 60px;
+ 
+    
+}
+.show h1{
+    text-shadow: 2px 3px white;
+}
+#np{
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    color: darkgreen;
+    text-align: end;
+}
+#draw{
+    padding: 10px;
+    font-size: 32px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
